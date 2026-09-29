@@ -5,5 +5,5 @@ Var
 Inicio
    Escreval ("Qual o seu nome? ")
    Leia (nome)
-   Escreval ("Ol·, ", nome, "! È um prazer te conhecer!")
+   Escreval ("Ol√°, ", nome, "! √© um prazer te conhecer!")
 Fimalgoritmo

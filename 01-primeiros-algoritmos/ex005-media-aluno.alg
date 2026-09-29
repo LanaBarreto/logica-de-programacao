@@ -1,5 +1,4 @@
 Algoritmo "calcula-media"
-
 Var
    nota1, nota2, media: real
 Inicio
@@ -9,5 +8,5 @@ Inicio
    Leia (nota2)
    
    media <- (nota1 + nota2) / 2
-   Escreval ("A média das notas é: ", media)
+   Escreval ("A mÃ©dia das notas Ã©: ", media)
 Fimalgoritmo

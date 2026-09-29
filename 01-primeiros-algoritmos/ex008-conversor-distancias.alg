@@ -1,9 +1,8 @@
 Algoritmo "conversor-medidas-distancia"
-
 Var
    distancia, quilometro, hectometro, decametro, decimetro, centimetro, milimetro: real
 Inicio
-   Escreval ("Digite a dist„ncia em metros (m): ")
+   Escreval ("Digite a dist√£ncia em metros (m): ")
    Leia (distancia)
    
    quilometro <- distancia / 1000
@@ -12,7 +11,7 @@ Inicio
    decimetro  <- distancia * 10
    centimetro <- distancia * 100
    milimetro  <- distancia * 1000
-   Escreval ("A dist‚ncia de" ,distancia, "m corresponde a: ")
+   Escreval ("A dist√¢ncia de" ,distancia, "m corresponde a: ")
    Escreval (quilometro,"Km")
    Escreval (hectometro,"Hm")
    Escreval (decametro,"Dam")

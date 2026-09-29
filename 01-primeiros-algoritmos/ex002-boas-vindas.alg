@@ -1,5 +1,4 @@
 Algoritmo "BoasVindas"
-
 Var
    nome: caractere
 Inicio

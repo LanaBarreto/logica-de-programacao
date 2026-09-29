@@ -1,5 +1,4 @@
 Algoritmo "OlaMundo"
-
 Var
 
 Inicio

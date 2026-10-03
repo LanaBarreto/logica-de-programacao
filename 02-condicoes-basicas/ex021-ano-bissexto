@@ -1,0 +1,13 @@
+Algoritmo "ano-bissexto"
+Var
+   ano: inteiro
+Inicio
+   Escreval (" ----- ESSE ANO É BISSEXTO? -----   ")
+   Leia (ano)
+   
+   Se ano % 4 <> 0 entao
+      Escreval ("NÃO! Esse ano NÃO é BISSEXTO!")
+   senao
+      Escreval ("SIM! Esse ano É BISSEXTO!")
+   FimSe
+Fimalgoritmo

@@ -2,7 +2,7 @@ Algoritmo "salario-reajuste"
 
 Var
    nome: caractere
-   salario: real
+   salario, novo_salario: real
    anos_trabalhados: inteiro
 Inicio
    Escreval ("REAJUSTE DE SALÁRIO")
@@ -12,15 +12,22 @@ Inicio
    Leia (salario)
    Escreval ("Informe há quantos anos ele trabalha na empresa: ")
    Leia (anos_trabalhados)
-   
-   
+
+   LimpaTela
+   Escreval ("DADOS DO FUNCIONÁRIO")
+   Escreval ("NOME: ", nome)
+   Escreval ("ANOS TRABALHADOS: ", anos_trabalhados)
+   Escreval ("SALÁRIO ATUAL: R$", salario)
    Se anos_trabalhados <= 3 entao
-      Escreval ("Aumento de 3%")
+      novo_salario <- salario + (salario * 3) / 100
+      Escreval ("NOVO SALÁRIO COM REAJUSTE de 3%: R$", novo_salario)
    senao
       Se (anos_trabalhados >= 3) e (anos_trabalhados <= 10) entao
-         Escreval ("Aumento de 12.5%")
+         novo_salario <- salario + (salario * 12.5) / 100
+         Escreval ("NOVO SALÁRIO COM REAJUSTE de 12.5%: R$", novo_salario)
       senao
-         Escreval ("Aumento de 20%")
+         novo_salario <- salario + (salario * 20) / 100
+         Escreval ("NOVO SALÁRIO COM REAJUSTE de 20%: R$", novo_salario)
       FimSe
    Fimse
 Fimalgoritmo
